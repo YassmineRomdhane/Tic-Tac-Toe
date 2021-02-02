@@ -3,21 +3,17 @@
   function marker(id) {
       var block =document.getElementById(id)
       console.log(id);
-      counter += 1;
       if(block.innerHTML!=="O" && block.innerHTML !=="X"){
+        counter += 1;
       if (counter % 2 === 0) {
           block.innerHTML = "O";
       } else {
           block.innerHTML = "X";
       }
-      console.log(counter); 
+
     }
-
-
-
-
-
-  }
+   
+   }
 
 
  
