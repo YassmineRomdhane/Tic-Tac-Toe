@@ -15,9 +15,22 @@
   }
 
 
-  .game {
+  .playboard {
     width: 300px;
     height: 300px;
     display: grid;
     grid-template-columns: auto auto auto;
+  }
+
+  button {
+    border: 4px solid red;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+ }
+
+  button:hover {
+    cursor: pointer;
+    background: red;
+    color: white;
   }

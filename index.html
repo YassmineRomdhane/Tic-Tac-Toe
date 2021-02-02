@@ -9,21 +9,21 @@
 <body>
     <div class="TicTacToe">
         <h1>Tic-Tac-Toe</h1>
-        <div class="game">
-          <div id="block0" class="block" onclick="{marker(this.id)}"></div>
-          <div id="block1" class="block" onclick="{marker(this.id)}"></div>
-          <div id="block2" class="block" onclick="{marker(this.id)}"></div>
-          <div id="block3" class="block" onclick="{marker(this.id)}"></div>
-          <div id="block4" class="block"onclick="{marker(this.id)}"></div>
-          <div id="block5" class="block" onclick="{marker(this.id)}"></div>
-          <div id="block6" class="block" onclick="{marker(this.id)}"></div>
-          <div id="block7" class="block" onclick="{marker(this.id)}"></div>
-          <div id="block8" class="block"onclick="{marker(this.id)}"></div>
+        <div class="playboard">
+          <div id="block0" class="block" onclick="{marker(this.id)}" value=0></div>
+          <div id="block1" class="block" onclick="{marker(this.id)}"value=0></div>
+          <div id="block2" class="block" onclick="{marker(this.id)}"value=0></div>
+          <div id="block3" class="block" onclick="{marker(this.id)}"value=0></div>
+          <div id="block4" class="block"onclick="{marker(this.id)}"value=0></div>
+          <div id="block5" class="block" onclick="{marker(this.id)}"value=0></div>
+          <div id="block6" class="block" onclick="{marker(this.id)}"value=0></div>
+          <div id="block7" class="block" onclick="{marker(this.id)}"value=0></div>
+          <div id="block8" class="block"onclick="{marker(this.id)}"value=0></div>
         </div>
       </div>
     
       <h2 id="winner"></h2>
-
+      <button onclick="reset_board()">RESET BOARD</button>
 
       <script src="app.js"></script>
     
